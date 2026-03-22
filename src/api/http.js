@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 const http = axios.create({
-  baseURL: import.meta.env.BACKEND || 'http://localhost:3000',
+  baseURL: process.env.BACKEND || 'http://localhost:3000',
   timeout: 15000,
 })
 
