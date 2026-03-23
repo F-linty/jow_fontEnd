@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 const http = axios.create({
-  baseURL: "jowbackend.railway.internal",
+  baseURL: "https://jowbackend-production.up.railway.app/",
   timeout: 15000,
 })
 
